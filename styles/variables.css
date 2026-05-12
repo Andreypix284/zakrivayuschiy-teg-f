@@ -1,1 +1,48 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-press-start: "PressStart2P", monospace;
+  --font-weight-regular: 400;
+  --font-weight-bold: 715;
+
+  --accent-color: #ff0000;
+  --text-color: #000000;
+  --bg-color: #ffffff;
+  --stroked-text: #ffffff;
+  --border-color: #000000;
+  --contour-svg: #000;
+  --body-background:
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+
+    --margin-header: 102px;
+    --min-height-header: 48vh;
+    --margin-article: 52px;
+    --section-article: 18px;
+    --padding-title: 5px 10px 4px 10px;
+    --section-article-image-margin: 25px;
+    --section-article-text-width: 86%;
+    --card__like-button: 127px;
+    --font-size-button: 14px;
+    --button__container: 306px;
+    --button__container-height: 84px;
+    --dialog-width: 391px;
+    --dialog-height: 191px;
+    --widht-desctop: 700px;
+
+  --header-clamp: clamp(49px, calc(-1.254px + 4.601vw), 65px);
+  --header-sub-title-clamp: clamp(14px, calc(10.831px + 0.845vw), 23px);
+  /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+}
