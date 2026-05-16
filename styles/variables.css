@@ -1,6 +1,6 @@
 :root {
-  --font-inter: "Inter", sans-serif;
-  --font-press-start: "PressStart2P", monospace;
+  --main-font: "Inter", sans-serif;
+  --accent-font: "PressStart2P", monospace;
   --font-weight-regular: 400;
   --font-weight-bold: 715;
 
@@ -28,18 +28,13 @@
     linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 
     --margin-header: 102px;
-    --min-height-header: 48vh;
-    --margin-article: 52px;
+    --min-height-header: 40vh;
+    --margin-article: 51px;
     --section-article: 18px;
     --padding-title: 5px 10px 4px 10px;
     --section-article-image-margin: 25px;
     --section-article-text-width: 86%;
-    --card__like-button: 127px;
     --font-size-button: 14px;
-    --button__container: 306px;
-    --button__container-height: 84px;
-    --dialog-width: 391px;
-    --dialog-height: 191px;
     --widht-desctop: 700px;
 
   --header-clamp: clamp(49px, calc(-1.254px + 4.601vw), 65px);
