@@ -27,8 +27,7 @@
     ),
     linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 
-    --margin-header: 102px;
-    --min-height-header: 40vh;
+    --margin-header: 98px;
     --margin-article: 51px;
     --section-article: 18px;
     --padding-title: 5px 10px 4px 10px;

@@ -34,7 +34,7 @@
   justify-content: center;
   align-items: center;
   gap: 21px;
-  min-height: var(--min-height-header);
+  margin-block: 122px 122px;
 }
 
 .header__title {
@@ -122,8 +122,7 @@
     1px 1px 0 var(--stroked-text);
 }
 
-@supports (-webkit-text-stroke: 1px var(--stroked-text)) or
-  (text-stroke: 1px var(--stroked-text)) {
+@supports (-webkit-text-stroke: 1px var(--stroked-text)) or (text-stroke: 1px var(--stroked-text)) {
   .stroked-text {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--stroked-text);
@@ -220,16 +219,18 @@
 .button-svg-small {
   width: 28px;
   height: 28px;
-  transition: filter 0.5s ease;
-}
-
-.svg-button {
-  background: var(--bg-color);
 }
 
 .button-svg-medium {
   width: 39px;
   height: 39px;
+}
+
+.button .svg-button {
+  position: relative;
+  mix-blend-mode: difference;
+  color: var(--bg-color);
+  transition: filter 0.5s ease;
 }
 
 .button-save {
@@ -256,6 +257,7 @@ dialog {
 .button__dialog-ok {
   width: 261px;
   min-height: 38px;
+  text-transform: uppercase;
 }
 
 .dialog__conteiner {
@@ -298,14 +300,14 @@ dialog::backdrop {
   }
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
+
   .header,
   .section-article {
     width: var(--widht-desctop);
   }
 
   .header {
-    margin-top: 98px;
     margin-bottom: 97px;
   }
 
@@ -324,7 +326,7 @@ dialog::backdrop {
   }
 
   .header__container {
-    min-height: 46vh;
+    margin-block: 130px 129px;
   }
 
   .button-save {
